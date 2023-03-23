@@ -1,9 +1,13 @@
 # SendReceiveTracing
 
 Create a trace in a destributed envirornment such as microservices using Zipkin and Opentelemetry.
+
 To run: Have docker up and running (E.g. Docker Desktop on Windows)
+
 Run `docker-compose up` to run the zipkin UI
+
 Start the Reveiver service trough your IDE of cohice,
+
 Start the Sender from your IDE of choice
 
 Sender sends a message trough RabbitMQ (connection string needed in both Program.cs files) and Receiver reads it
